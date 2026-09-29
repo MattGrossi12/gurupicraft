@@ -8,16 +8,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="background-overlay"></div>
-
   <header class="hero">
     <div class="hero-content">
       <h1>Gurupicraft</h1>
       <p>Modpack Minecraft 1.21.1 com foco em dinossauros, tecnologia, exploração, construção e aventura.</p>
-
       <div class="hero-actions">
         <a class="button primary" href="#instalacao">Instalar</a>
-        <a class="button" href="#mods">Ver mods</a>
+        <a class="button" href="#lista-mods">Lista de mods</a>
       </div>
     </div>
   </header>
@@ -32,24 +29,14 @@
       </p>
 
       <div class="stats">
-        <div>
-          <strong>Minecraft</strong>
-          <span>1.21.1</span>
-        </div>
-        <div>
-          <strong>Mod Loader</strong>
-          <span>NeoForge</span>
-        </div>
-        <div>
-          <strong>Mods únicos</strong>
-          <span>137</span>
-        </div>
+        <div><strong>Minecraft</strong><span>1.21.1</span></div>
+        <div><strong>Mod Loader</strong><span>NeoForge</span></div>
+        <div><strong>Mods únicos</strong><span>137</span></div>
       </div>
     </section>
 
     <section class="card" id="instalacao">
       <h2>Instalação</h2>
-
       <ol class="steps">
         <li>
           Baixe o pacote completo com CurseForge, modpack installer e Hamachi:
@@ -73,9 +60,8 @@
       </ol>
     </section>
 
-    <section class="card" id="mods">
+    <section class="card" id="imagens">
       <h2>Imagens de mods presentes</h2>
-
       <div class="gallery">
         <img src="images/img1.png" alt="Mod presente no Gurupicraft 1" loading="lazy">
         <img src="images/img2.png" alt="Mod presente no Gurupicraft 2" loading="lazy">
@@ -91,23 +77,175 @@
       </div>
     </section>
 
-    <section class="card">
-      <h2>Principais categorias</h2>
-      <div class="categories">
-        <span>Dinossauros</span>
-        <span>Pré-história</span>
-        <span>Tecnologia</span>
-        <span>Automação</span>
-        <span>Exploração</span>
-        <span>Construção</span>
-        <span>Super-heróis</span>
-        <span>Qualidade de vida</span>
-      </div>
+    <section class="card" id="lista-mods">
+      <h2>Mods presentes</h2>
+      <p>Lista dos mods incluídos atualmente no Gurupicraft.</p>
+
+      <input
+        class="mod-search"
+        id="modSearch"
+        type="text"
+        placeholder="Pesquisar mod..."
+        aria-label="Pesquisar mod"
+      >
+
+      <ul class="mod-list" id="modList">
+        <li>AAA Particles</li>
+        <li>AE2 Things</li>
+        <li>AE2 Crafting Tree</li>
+        <li>AE2 Import Export Card</li>
+        <li>AE2 JEI Integration</li>
+        <li>AE2 Network Analyzer</li>
+        <li>AE2 Wireless Terminals Library</li>
+        <li>AE Infinity Booster</li>
+        <li>AI Improvements</li>
+        <li>Another Furniture</li>
+        <li>Applied Energistics 2</li>
+        <li>Architectury API</li>
+        <li>Athena</li>
+        <li>AzureLib</li>
+        <li>Bad Packets</li>
+        <li>Balm</li>
+        <li>BCC</li>
+        <li>Better Advancements</li>
+        <li>Better Archeology</li>
+        <li>Better Ping Display</li>
+        <li>BHMenu</li>
+        <li>Bookshelf</li>
+        <li>Cherished Worlds</li>
+        <li>Chipped</li>
+        <li>Citadel</li>
+        <li>Cloth Config</li>
+        <li>Clumps</li>
+        <li>CodeChickenLib</li>
+        <li>Sinytra Connector</li>
+        <li>Controlling</li>
+        <li>CorgiLib</li>
+        <li>Crash Assistant</li>
+        <li>Curios API</li>
+        <li>Danny's AOT</li>
+        <li>Diagonal Fences</li>
+        <li>Diamond Vein</li>
+        <li>Easy Magic</li>
+        <li>Ecologics</li>
+        <li>Elevator Mod</li>
+        <li>Embeddium</li>
+        <li>EMI</li>
+        <li>Ender Storage</li>
+        <li>Entity Culling</li>
+        <li>Entity Model Features</li>
+        <li>Entity Texture Features</li>
+        <li>FancyMenu</li>
+        <li>Farmer's Delight</li>
+        <li>Far Past</li>
+        <li>Fast Leaf Decay</li>
+        <li>Fast Primitive Age</li>
+        <li>Fast Steam Age</li>
+        <li>FerriteCore</li>
+        <li>Flo's Precambrian</li>
+        <li>Forgified Fabric API</li>
+        <li>Fossils Legacy</li>
+        <li>FramedBlocks</li>
+        <li>FTB Chunks</li>
+        <li>FTB Library</li>
+        <li>FTB Teams</li>
+        <li>FTB XMod Compat</li>
+        <li>FTB Backups 2</li>
+        <li>GeckoLib</li>
+        <li>Glodium</li>
+        <li>GuideME</li>
+        <li>Iceberg</li>
+        <li>ImmediatelyFast</li>
+        <li>Industrial Upgrade</li>
+        <li>Iron Chests</li>
+        <li>Iron Furnaces</li>
+        <li>Jade</li>
+        <li>Jade Addons</li>
+        <li>JamLib</li>
+        <li>JEI</li>
+        <li>Jurassic Genesis</li>
+        <li>Jurassic Revived</li>
+        <li>Jurassic Saga</li>
+        <li>Kiwi</li>
+        <li>Konkrete</li>
+        <li>KubeJS</li>
+        <li>Legendary Tooltips</li>
+        <li>Lithium</li>
+        <li>LMFT</li>
+        <li>Lootr</li>
+        <li>Marvel</li>
+        <li>MEGA Cells</li>
+        <li>Melody</li>
+        <li>MineJurassic: Hammond Legacy</li>
+        <li>ModelFix</li>
+        <li>ModernFix</li>
+        <li>Mouse Tweaks</li>
+        <li>Nature's Compass</li>
+        <li>NeoCulus</li>
+        <li>No Chat Restrictions</li>
+        <li>Not Enough Animations</li>
+        <li>No Weed</li>
+        <li>Ok Zoomer</li>
+        <li>Packet Fixer</li>
+        <li>Paladin's Furniture</li>
+        <li>Paxi</li>
+        <li>Pelagic Prehistory</li>
+        <li>Pipez</li>
+        <li>Player Animation Library</li>
+        <li>PolyLib</li>
+        <li>Power Utilities</li>
+        <li>Prehistoric Paintings</li>
+        <li>Prickle</li>
+        <li>Prism</li>
+        <li>Puzzles Lib</li>
+        <li>Quantum Generators</li>
+        <li>Reactor Plus</li>
+        <li>Resourceful Config</li>
+        <li>Resourceful Lib</li>
+        <li>Rhino</li>
+        <li>Right Click Harvest</li>
+        <li>Searchables</li>
+        <li>Simple Discord Rich Presence</li>
+        <li>Simply Quarries</li>
+        <li>3D Skin Layers</li>
+        <li>Sophisticated Backpacks</li>
+        <li>Sophisticated Core</li>
+        <li>Storage Drawers</li>
+        <li>Structory</li>
+        <li>Tips</li>
+        <li>Travelers</li>
+        <li>Traveler's Backpack</li>
+        <li>Watering Can</li>
+        <li>Waystones</li>
+        <li>Wildfyre Library</li>
+        <li>WTHIT</li>
+        <li>Xaero's World Map</li>
+        <li>Xaero's Minimap</li>
+        <li>Yeetus Experimentus</li>
+        <li>YUNG's API</li>
+        <li>YUNG's Better Dungeons</li>
+        <li>YUNG's Bridges</li>
+        <li>SecurityCraft</li>
+        <li>Wildfyre's DC Mod</li>
+      </ul>
     </section>
   </main>
 
   <footer>
     <p>Gurupicraft • Minecraft 1.21.1 • NeoForge</p>
   </footer>
+
+  <script>
+    const search = document.getElementById('modSearch');
+    const items = [...document.querySelectorAll('#modList li')];
+
+    search.addEventListener('input', () => {
+      const term = search.value.toLowerCase().trim();
+      items.forEach(item => {
+        item.style.display =
+          item.textContent.toLowerCase().includes(term) ? '' : 'none';
+      });
+    });
+  </script>
 </body>
 </html>
